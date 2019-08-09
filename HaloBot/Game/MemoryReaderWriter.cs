@@ -60,19 +60,19 @@ namespace HaloBot
 
 
 
-            PLAYER_CONTROL_GLOBALS_POINTER = 0x64C2C4,
+            PLAYER_CONTROL_GLOBALS_POINTER = 0x64C38C,
             LOOKING_VECTOR_OFFSET = 0x1C,
-            CAMERA_POS = 0x00647424,
+            CAMERA_POS = 0x006474EC,
 
             CAN_WALK = 0x00622058,
-            CLEAR_SHOT = 0x0067F631,
-            FLASHLIGHT_ON = 0x007FBA30,
+            CLEAR_SHOT = 0x0067F6F9,
+            FLASHLIGHT_ON = 0x007FBE70,
             ZOOM_LEVEL = 0x400008D0, //nonstatic but always in same place anyway?
 
             OBJECT_TABLE_HEADER = 0x400506B4,
             LOCAL_PLAYER = 0x402AD408,
             STATIC_PLAYER_HEADER = 0x402AAF94,
-            OBJECTIVES_LIST = 0X0068C774
+            OBJECTIVES_LIST = 0X0068C83C
         }
 
         public MemoryReaderWriter()
